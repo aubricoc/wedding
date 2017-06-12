@@ -28,7 +28,16 @@
 		},
 		"register": {
 			"title": "Cómo apuntarse?",
-			"text": "Confirmando asistencia mandando un correo a <a href=\"mailto:bodaladyjordi@gmail.com\">bodaladyjordi@gmail.com</a>!"
+			"text": "Para confirmar asistencia hay que rellenar este pequeño formulario o enviar un correo a <a href=\"mailto:bodaladyjordi@gmail.com\">bodaladyjordi@gmail.com</a>!",
+			"form": {
+				"who": "Nombre y apellidos",
+				"with": "Acompañante/s (niños incluidos)",
+				"why": "Comentarios",
+				"send": "Enviar",
+				"ok": "Listo! Ahí nos vemos",
+				"ko": "Ha ocurrido un problema... Vuelve a intentarlo más tarde o envianos un correo a <a href=\"mailto:bodaladyjordi@gmail.com\">bodaladyjordi@gmail.com</a>",
+				"loading": "Guardando..."
+			}
 		},
 		"go": {
 			"title": "Cómo llegar?",

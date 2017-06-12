@@ -1,0 +1,23 @@
+[debug] [2017-06-12T17:11:21.835Z] ----------------------------------------------------------------------
+[debug] [2017-06-12T17:11:21.837Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\jordi\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-06-12T17:11:21.837Z] CLI Version:  3.9.1
+[debug] [2017-06-12T17:11:21.837Z] Platform:     win32
+[debug] [2017-06-12T17:11:21.837Z] Node Version: v6.10.2
+[debug] [2017-06-12T17:11:21.838Z] Time:         Mon Jun 12 2017 19:11:21 GMT+0200 (Romance Daylight Time)
+[debug] [2017-06-12T17:11:21.838Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-12T17:11:21.851Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-12T17:11:21.851Z] > authorizing via signed-in user
+[debug] [2017-06-12T17:11:21.853Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-12T17:11:21.853Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/Hq-ftRFNzXaNX-hrmivAjD7Mq8jK9HvRy4P5sF-T2NU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jun 12 2017 19:11:21 GMT+0200 (Romance Daylight Time)
+[debug] [2017-06-12T17:11:22.273Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T17:11:22.291Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/wedding-27959  
+ Mon Jun 12 2017 19:11:22 GMT+0200 (Romance Daylight Time)
+[debug] [2017-06-12T17:11:22.658Z] Error: EPERM: operation not permitted, rename 'C:\Users\jordi\.config\configstore\firebase-tools.json.2434324140' -> 'C:\Users\jordi\.config\configstore\firebase-tools.json'
+[error] 
+[error] Error: An unexpected error has occurred.

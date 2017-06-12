@@ -5,6 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Lady &#9901; Jordi</title>
 		
+		<script defer src="/__/firebase/4.0.0/firebase-app.js"></script>
+		<script defer src="/__/firebase/4.0.0/firebase-auth.js"></script>
+		<script defer src="/__/firebase/4.0.0/firebase-database.js"></script>
+		<script defer src="/__/firebase/4.0.0/firebase-messaging.js"></script>
+		<script defer src="/__/firebase/4.0.0/firebase-storage.js"></script>
+		<script defer src="/__/firebase/init.js"></script>
+		
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-cookies.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.15.1/angular-translate.min.js"></script>
@@ -64,6 +71,15 @@
 				<div class="subcontent">
 					<h3 translate="faq.register.title"></h3>
 					<p translate="faq.register.text"><p>
+					<p translate="faq.register.form.ok" ng-show="sended.ok"></p>
+					<p translate="faq.register.form.ko" ng-show="sended.ko"></p>
+					<p translate="faq.register.form.loading" ng-show="sended.loading"></p>
+					<form name="confirmForm" ng-hide="sended.ok || sended.loading">
+						<input name="who" placeholder="{{ 'faq.register.form.who' | translate }}" ng-model="confirmation.who" required />
+						<input name="with" placeholder="{{ 'faq.register.form.with' | translate }}" ng-model="confirmation.with" />
+						<input name="why" placeholder="{{ 'faq.register.form.why' | translate }}" ng-model="confirmation.why" />
+						<button type="button" translate="faq.register.form.send" ng-click="sendConfirmation()"></button>
+					</form>
 				</div>
 				<div id="go" class="subcontent">
 					<h3 translate="faq.go.title"></h3>
