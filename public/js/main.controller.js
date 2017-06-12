@@ -29,10 +29,7 @@
 		};
 		
 		$scope.sendConfirmation = function() {
-			if ($scope.confirmForm.$valid)) {
-				if (true) {
-					return;
-				}
+			if ($scope.confirmForm.$valid) {
 				$scope.sended.ok = false;
 				$scope.sended.ko = false;
 				$scope.sended.loading = true;
