@@ -15,50 +15,112 @@ body.kiss {
 	background-image: url("../img/IMG_20161023_180228.jpg");
 }
 
-#content {
-	margin-top: 150px;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-left: auto;
-	text-align: center;
-}
-
-#content h1 {
+h1 {
 	font-family: 'Great Vibes', cursive;
-	font-size: 60px;
+	font-size: 68px;
 	color: rgba(0, 0, 0, 0.7);
 	margin: 0;
-	font-weight: 300;
-	text-shadow: 2px 1px #ffa100;
+	text-shadow: 2px 1px #ffffff;
 }
 
-#content h2 {
+h2 {
 	color: #ffa100;
 	text-shadow: 1px 1px #333333;
 	font-size: 37px;
 	font-family: 'Marck Script', cursive;
-	margin: 0;
+	margin: 20px 0 0 0;
 }
 
-#content p {
+h3 {
+	font-family: 'Marck Script', cursive;
+	font-size: 40px;
 	margin: 16px 0;
-	font-size: 28px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+h4, p {
+	margin: 16px 0;
+	font-size: 32px;
 	font-family: 'Rancho', cursive;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+p {
+	font-size: 24px;
+}
+
+.container {
+	padding-top: 130px;
+}
+
+.content {
+	margin-top: 100px;
+	max-width: 420px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	background-color: rgba(256, 256, 256, 0.7);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 .subcontent {
-	background-color: rgba(256, 256, 256, 0.7);
-	max-width: 360px;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 5px 24px;
+	padding: 5px 10px;
 }
 
-.subcontent.sub_title {
+#title {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 	padding-top: 30px;
-	padding-bottom: 10px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	border: 5px dotted #333;
+}
+
+#where iframe {
+	width: 100%;
+	height: 300px;
+}
+
+#go img {
+	width: 100%;
+}
+
+#more .wedshoots {
+	margin: 0 auto;
+	display: block;
+	width: 200px;
+}
+
+#more .store {
+	background: url(../img/sprite_stores.svg) no-repeat;
+	background-size: 200%;
+	width: 130px;
+	height: 46px;
+	padding: 4px 0 0;
+	font-size: 10px;
+	color: #fff;
+	display: inline-block;
+}
+
+#more .store.android {
+    background-position: 0 3px;
+}
+
+#more .store.apple {
+    background-position: -135px 3px;
+}
+
+#more .store span {
+	padding-left: 18px;
+}
+
+.flag {
+	float: right;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.flag img {
+	width: 25px;
 }
 
 @media ( max-width : 600px) {
