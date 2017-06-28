@@ -3,7 +3,7 @@
 	"faq": {
 		"when": {
 			"title": "Cuándo?",
-			"text": "<strong>23 de Septiembre, 2017</strong><br />Todo empieza a las <strong>16:30</strong> con la ceremonia!"
+			"text": "<strong>Sábado, 23 de Septiembre, 2017</strong><br />Todo empieza a las <strong>16:30</strong> con la ceremonia!"
 		},
 		"where": {
 			"title": "Dónde?",
@@ -16,7 +16,7 @@
 		},
 		"why": {
 			"title": "Porqué?",
-			"text": "Por muchos motivos:<ul><li>por la fiesta</li><li><strong>porque nos queremos</strong></li><li>y por la fiesta! ;)</li></ul>"
+			"text": "Por muchos motivos:<ul><li>por la fiesta</li><li><strong>porque nos queremos</strong></li><li>y por la fiesta! <span class=\"emoticon\">;)</span></li></ul>"
 		},
 		"how": {
 			"title": "Cómo?",
@@ -31,7 +31,7 @@
 			"text": "Para confirmar asistencia hay que rellenar este pequeño formulario o enviar un correo a <a href=\"mailto:bodaladyjordi@gmail.com\">bodaladyjordi@gmail.com</a>!",
 			"form": {
 				"who": "Nombre y apellidos",
-				"with": "Acompañante/s (niños incluidos)",
+				"with": "Acompañante/s",
 				"why": "Comentarios",
 				"send": "Enviar",
 				"ok": "Listo! Ahí nos vemos",
@@ -59,9 +59,13 @@
 			"wedshoots": "Hoy en día todo el mundo hace fotos con los teléfonos móviles, y así lo queremos también en nuestra boda.<br />Recopilaremos mucho más fácil todas las fotos si se hacen con la aplicación:",
 			"download": "Descárgala para tu teléfono:",
 			"available": "Disponible para",
-			"code": "Código del álbum: <strong>ES71f8efa2</strong>",
-			"prize": "Además el que haga más fotos (buenas) recibirá un premio!",
+			"code": "Código del álbum: <strong class=\"emoticon\">ES71f8efa2</strong>",
+			"prize": "Además el que haga más fotos (buenas) recibirá un obsequio!",
 			"challenge": "Y prepárate! Habrá un pequeño concurso con premio!"
+		},
+		"help": {
+			"title": "Más?",
+			"text": "Si aún quedan dudas, preguntas, peticiones o comentarios se nos puede contactar por correo electrónico a <a href=\"mailto:bodaladyjordi@gmail.com\">bodaladyjordi@gmail.com</a> o por teléfono a <strong>650380321</strong> o <strong>696994770</strong>"
 		}
 	}
 }
